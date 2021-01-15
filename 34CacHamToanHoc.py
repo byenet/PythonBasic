@@ -1,0 +1,21 @@
+from math import *
+print('sqrt(25)= ',sqrt(25))
+print('pow(5,3)= ',pow(5,3))
+print('log(2)= ',log(2))
+print('log10(100)= ',log10(100))
+print('exp(2)= ',exp(2))
+print(degrees(0.5235987755982988))
+print(degrees(pi/2))
+print(radians(30))
+
+goc = float(input("Moi ban nhap vao 1 goc: "))
+sinX = sin(radians(goc))
+cosX = cos(radians(goc))
+tanX = tan(radians(goc))
+cotanX = 1/tanX
+arcsinX = asin(radians(goc))
+print("sin({0})={1}".format(goc,sinX))
+print("cos({0})={1}".format(goc,cosX))
+print("tan({0})={1}".format(goc,tanX))
+print("cotan({0})={1}".format(goc,cotanX))
+print("arcsin({0})={1}".format(goc,arcsinX))
